@@ -16,6 +16,7 @@ H = R + h # Orbit radius of the ISS, in km
 
 
 app = dash.Dash(__name__)
+server=app.server
 
 app.layout = html.Div(className= 'maincontainer', children=[
         html.H1('Posición de la estación espacial internacional (ISS)', style = {'textAlign': 'center'}),
