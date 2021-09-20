@@ -1,1 +1,1 @@
-web: gunicorn posapp.py:server
+web: gunicorn posapp:server
