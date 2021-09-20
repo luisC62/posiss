@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
